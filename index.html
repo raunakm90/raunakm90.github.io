@@ -24,10 +24,81 @@ article: http://ogp.me/ns/article#
             <li><a href="categories/index.html" title="Tags"><i class="icon-tags"></i></a></li>
             <li><a href="rss.xml" title="RSS"><i class="icon-rss"></i></a></li>
             <li><a href="https://getnikola.com" title="About me"><i class="icon-user"></i></a></li>
-            <li><a href="https://twitter.com/getnikola" title="My Twitter"><i class="icon-twitter"></i></a></li>
-            <li><a href="https://github.com/getnikola" title="My Github"><i class="icon-github"></i></a></li>
+            <li><a href="https://twitter.com/raunakmundada" title="My Twitter"><i class="icon-twitter"></i></a></li>
+            <li><a href="https://github.com/raunakm90" title="My Github"><i class="icon-github"></i></a></li>
 
         </ul></section><section class="page-content"><div class="content" rel="main">
+        <div class="post">
+            <h1 class="title"><a href="posts/credit-card-fraud-detection-data-exploration/">Credit Card Fraud Detection - Data Exploration</a></h1>
+            <div class="meta">
+                <div class="authordate">
+                    <time class="timeago" datetime="2017-08-30T18:24:22-05:00">2017-08-30 18:24</time>
+</div>
+                <div class="stats">
+                            <div class="g-commentcount" data-href="/posts/credit-card-fraud-detection-data-exploration/"></div>
+<script src="https://apis.google.com/js/plusone.js"></script>
+</div>
+            
+            </div>
+            <div class="body">
+                <div tabindex="-1" id="notebook" class="border-box-sizing">
+    <div class="container" id="notebook-container">
+
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Credit-Card-Fraud-Detection---Data-Visualization">Credit Card Fraud Detection - Data Visualization<a class="anchor-link" href="posts/credit-card-fraud-detection-data-exploration/#Credit-Card-Fraud-Detection---Data-Visualization">¶</a>
+</h2>
+<p>This is the first post for <a href="https://www.kaggle.com/dalpozz/creditcardfraud">Credit Card Fraud Detection</a>. The goal of this project is to explore different classification models and evaluate their performance for an imbalanced dataset. Along with implementing classification models, I also wanted to explore some the methods used to handle class imbalance.
+In this post, I mainly explore the dataset using visualization tools.</p>
+<p>We hear/read about credit card frauds and identity theft every other day. Recently, I received a call from a fraudster. Unaware, I was almost duped. Thankfully, I realized something is awfully wrong with the voice and the tone of the caller. Plus, he asked me to pay my 'fines' using Walmart gift cards. Really?! I managed to escape this but not without divulging some information about me. What if he uses that information to hack into my back accounts? He would've committed credit card fraud maybe by using my card information on online shopping websites.</p>
+<p>Credit card frauds can be unnoticeable to the human eye. It is easy to pretend some one while using the card. In my experience, only at shopping centres has my ID been checked with my credit card. Everywhere else I could be anyone but the cardholder. All of the online websites I have used requires me to just enter my card information and zip code (how easy is that once you have the card information) instead of two-step verification (like a verification code through a text message). I might be missing something here in terms of online card transaction security and any information on this would be great. My point being, it's not that difficult to get someone else's card information and use it for different purposes. So, how do banks and credit card companies keep us safe in terms of credit card frauds? It's by using historical data of all the transactions! Fraudulent transactions may have a pattern - card is used in different locations, huge withdrawals and transactions in small amounts to avoid suspicion are just some of the indications.</p>
+<p>I came across Kaggle's dataset on <a href="https://www.kaggle.com/dalpozz/creditcardfraud">Credit Card Fraud Detection</a> and decided to dive into this problem. This dataset includes transactions by European cardholders completed in September 2013. I want to explore some of the classification methods that could be used to solve this problem. The biggest challenge of this problem is the class imbalance - only 0.172% of all transactions in this dataset are fraudulent. This post explores the dataset using data visualization.
+</p>
+<p class="more"><a href="posts/credit-card-fraud-detection-data-exploration/">Read more…</a></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+            </div>
+        </div>
+        <div class="post">
+            <h1 class="title"><a href="posts/credit-card-fraud-detection-logistic-regression-and-adasyn/">Credit Card Fraud Detection - Logistic Regression and ADASYN</a></h1>
+            <div class="meta">
+                <div class="authordate">
+                    <time class="timeago" datetime="2017-08-30T18:23:18-05:00">2017-08-30 18:23</time>
+</div>
+                <div class="stats">
+                            <div class="g-commentcount" data-href="/posts/credit-card-fraud-detection-logistic-regression-and-adasyn/"></div>
+<script src="https://apis.google.com/js/plusone.js"></script>
+</div>
+            
+            </div>
+            <div class="body">
+                <div tabindex="-1" id="notebook" class="border-box-sizing">
+    <div class="container" id="notebook-container">
+
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Credit-Card-Fraud-Classification-using-Adaptive-Synthetic-Sampling-(ADASYN)-approach">Credit Card Fraud Classification using Adaptive Synthetic Sampling (ADASYN) approach<a class="anchor-link" href="posts/credit-card-fraud-detection-logistic-regression-and-adasyn/#Credit-Card-Fraud-Classification-using-Adaptive-Synthetic-Sampling-(ADASYN)-approach">¶</a>
+</h2>
+<p>This is a continuation of the credit card fraud detection - data visualization post. I now build a machine learning model using Adaptive Synthetic Sampling to detect credit card frauds.</p>
+<p>I came across Kaggle's dataset on <a href="https://www.kaggle.com/dalpozz/creditcardfraud">Credit Card Fraud Detection</a> and decided to dive into this problem. This dataset includes transactions by European cardholders completed in September 2013. I want to explore some of the classification methods that could be used to solve this problem. The biggest challenge of this problem is the class imbalance - only 0.172% of all transactions in this dataset are fraudulent. The goal of this project is to start with a simple yet powerful model like <a href="https://onlinecourses.science.psu.edu/stat504/node/149">Logistic Regression</a>. Along with implementing logistic regression, I also wanted to explore some the methods used to handle class imbalance. In this post, I use <a href="http://ieeexplore.ieee.org/document/4633969/?part=1">Adaptive Synthetic Sampling (ADASYN)</a>, which is further discussed in this post.
+</p>
+<p class="more"><a href="posts/credit-card-fraud-detection-logistic-regression-and-adasyn/">Read more…</a></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+            </div>
+        </div>
         <div class="post">
             <h1 class="title"><a href="posts/plotly-example/">plotly example</a></h1>
             <div class="meta">
