@@ -5,6 +5,7 @@ article: http://ogp.me/ns/article#
 " lang="en">
 <head>
 <meta charset="utf-8">
+<meta name="description" content="Credit Card Fraud Detection - Data Exploration">
 <meta name="viewport" content="width=device-width">
 <title>Credit Card Fraud Detection - Data Exploration | Experiments with Data</title>
 <link href="../../assets/css/all-nocdn.css" rel="stylesheet" type="text/css">
@@ -14,9 +15,12 @@ article: http://ogp.me/ns/article#
 <meta property="og:site_name" content="Experiments with Data">
 <meta property="og:title" content="Credit Card Fraud Detection - Data Exploration">
 <meta property="og:url" content="https://raunakm90.github.io/posts/credit-card-fraud-detection-data-exploration/">
-<meta property="og:description" content="Credit Card Fraud Detection - Data Visualization¶This is the first post for Credit Card Fraud Detection. The goal of this project is to explore different classification models and evaluate their perfo">
+<meta property="og:description" content="Credit Card Fraud Detection - Data Exploration">
 <meta property="og:type" content="article">
 <meta property="article:published_time" content="2017-08-30T18:24:22-05:00">
+<meta property="article:tag" content="creditcardfraud">
+<meta property="article:tag" content="data-viz">
+<meta property="article:tag" content="python">
 </head>
 <body>
     <section class="social"><ul>
@@ -40,7 +44,15 @@ article: http://ogp.me/ns/article#
         <a href="index.ipynb" id="sourcelink">Source</a>
 
             </div>
-            
+                    <div itemprop="keywords" class="tags">
+        <ul>
+        Tags : 
+           <li><a class="tag p-category" href="../../categories/creditcardfraud/" rel="tag">creditcardfraud</a></li>
+           <li><a class="tag p-category" href="../../categories/data-viz/" rel="tag">data-viz</a></li>
+           <li><a class="tag p-category" href="../../categories/python/" rel="tag">python</a></li>
+        </ul>
+</div>
+
         </div>
         <div class="body">
             <div tabindex="-1" id="notebook" class="border-box-sizing">
@@ -51,8 +63,6 @@ article: http://ogp.me/ns/article#
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Credit-Card-Fraud-Detection---Data-Visualization">Credit Card Fraud Detection - Data Visualization<a class="anchor-link" href="#Credit-Card-Fraud-Detection---Data-Visualization">¶</a>
-</h2>
 <p>This is the first post for <a href="https://www.kaggle.com/dalpozz/creditcardfraud">Credit Card Fraud Detection</a>. The goal of this project is to explore different classification models and evaluate their performance for an imbalanced dataset. Along with implementing classification models, I also wanted to explore some the methods used to handle class imbalance.
 In this post, I mainly explore the dataset using visualization tools.</p>
 <p>We hear/read about credit card frauds and identity theft every other day. Recently, I received a call from a fraudster. Unaware, I was almost duped. Thankfully, I realized something is awfully wrong with the voice and the tone of the caller. Plus, he asked me to pay my 'fines' using Walmart gift cards. Really?! I managed to escape this but not without divulging some information about me. What if he uses that information to hack into my back accounts? He would've committed credit card fraud maybe by using my card information on online shopping websites.</p>

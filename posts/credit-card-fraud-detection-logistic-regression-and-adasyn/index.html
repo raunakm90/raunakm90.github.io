@@ -5,6 +5,7 @@ article: http://ogp.me/ns/article#
 " lang="en">
 <head>
 <meta charset="utf-8">
+<meta name="description" content="Credit Card Fraud Detection - Logistic Regression and ADASYN">
 <meta name="viewport" content="width=device-width">
 <title>Credit Card Fraud Detection - Logistic Regression and ADASYN | Experiments with Data</title>
 <link href="../../assets/css/all-nocdn.css" rel="stylesheet" type="text/css">
@@ -14,9 +15,14 @@ article: http://ogp.me/ns/article#
 <meta property="og:site_name" content="Experiments with Data">
 <meta property="og:title" content="Credit Card Fraud Detection - Logistic Regression and ADASYN">
 <meta property="og:url" content="https://raunakm90.github.io/posts/credit-card-fraud-detection-logistic-regression-and-adasyn/">
-<meta property="og:description" content="Credit Card Fraud Classification using Adaptive Synthetic Sampling (ADASYN) approach¶This is a continuation of the credit card fraud detection - data visualization post. I now build a machine learning">
+<meta property="og:description" content="Credit Card Fraud Detection - Logistic Regression and ADASYN">
 <meta property="og:type" content="article">
 <meta property="article:published_time" content="2017-08-30T18:23:18-05:00">
+<meta property="article:tag" content="class-imbalance">
+<meta property="article:tag" content="classification">
+<meta property="article:tag" content="logistic regression">
+<meta property="article:tag" content="python">
+<meta property="article:tag" content="scikit-learn">
 </head>
 <body>
     <section class="social"><ul>
@@ -40,7 +46,17 @@ article: http://ogp.me/ns/article#
         <a href="index.ipynb" id="sourcelink">Source</a>
 
             </div>
-            
+                    <div itemprop="keywords" class="tags">
+        <ul>
+        Tags : 
+           <li><a class="tag p-category" href="../../categories/class-imbalance/" rel="tag">class-imbalance</a></li>
+           <li><a class="tag p-category" href="../../categories/classification/" rel="tag">classification</a></li>
+           <li><a class="tag p-category" href="../../categories/logistic-regression/" rel="tag">logistic regression</a></li>
+           <li><a class="tag p-category" href="../../categories/python/" rel="tag">python</a></li>
+           <li><a class="tag p-category" href="../../categories/scikit-learn/" rel="tag">scikit-learn</a></li>
+        </ul>
+</div>
+
         </div>
         <div class="body">
             <div tabindex="-1" id="notebook" class="border-box-sizing">
@@ -51,8 +67,6 @@ article: http://ogp.me/ns/article#
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Credit-Card-Fraud-Classification-using-Adaptive-Synthetic-Sampling-(ADASYN)-approach">Credit Card Fraud Classification using Adaptive Synthetic Sampling (ADASYN) approach<a class="anchor-link" href="#Credit-Card-Fraud-Classification-using-Adaptive-Synthetic-Sampling-(ADASYN)-approach">¶</a>
-</h2>
 <p>This is a continuation of the credit card fraud detection - data visualization post. I now build a machine learning model using Adaptive Synthetic Sampling to detect credit card frauds.</p>
 <p>I came across Kaggle's dataset on <a href="https://www.kaggle.com/dalpozz/creditcardfraud">Credit Card Fraud Detection</a> and decided to dive into this problem. This dataset includes transactions by European cardholders completed in September 2013. I want to explore some of the classification methods that could be used to solve this problem. The biggest challenge of this problem is the class imbalance - only 0.172% of all transactions in this dataset are fraudulent. The goal of this project is to start with a simple yet powerful model like <a href="https://onlinecourses.science.psu.edu/stat504/node/149">Logistic Regression</a>. Along with implementing logistic regression, I also wanted to explore some the methods used to handle class imbalance. In this post, I use <a href="http://ieeexplore.ieee.org/document/4633969/?part=1">Adaptive Synthetic Sampling (ADASYN)</a>, which is further discussed in this post.
 <!--TEASER_END--></p>
