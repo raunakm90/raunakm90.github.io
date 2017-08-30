@@ -134,14 +134,18 @@ TRANSLATIONS_PATTERN = "{path}.{lang}.{ext}"
 
 NAVIGATION_LINKS = {
     DEFAULT_LANG: (
-        ("/archive.html", "Archive"),
-        ("/categories/", "Tags"),
-        ("/rss.xml", "RSS feed"),
-    ),
+        ('/index.html', 'Home', 'icon-home'),
+        ('/archive.html', 'Archives', 'icon-folder-open-alt'),
+        ('/categories/index.html', 'Tags', 'icon-tags'),
+        ('/rss.xml', 'RSS', 'icon-rss'),
+        ('https://getnikola.com', 'About me', 'icon-user'),
+        ('https://twitter.com/getnikola', 'My Twitter', 'icon-twitter'),
+        ('https://github.com/getnikola', 'My Github', 'icon-github'),
+    )
 }
 
 # Name of the theme to use.
-THEME = "bootstrap3"
+THEME = "zen-ipython"
 
 # Primary color of your theme. This will be used to customize your theme and
 # auto-generate related colors in POSTS_SECTION_COLORS. Must be a HEX value.
@@ -900,7 +904,7 @@ IMAGE_FOLDERS = {'images': 'images'}
 # )
 
 # Show teasers (instead of full posts) in indexes? Defaults to False.
-# INDEX_TEASERS = False
+INDEX_TEASERS = True
 
 # HTML fragments with the Read more... links.
 # The following tags exist and are replaced for you:
@@ -1155,7 +1159,7 @@ MARKDOWN_EXTENSIONS = ['markdown.extensions.fenced_code', 'markdown.extensions.c
 
 # Only include teasers in Atom and RSS feeds. Disabling include the full
 # content. Defaults to True.
-# FEED_TEASERS = True
+FEED_TEASERS = True
 
 # Strip HTML from Atom and RSS feed summaries and content. Defaults to False.
 # FEED_PLAIN = False
