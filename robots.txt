@@ -1,0 +1,4 @@
+Sitemap: https://raunakm90.github.io/sitemapindex.xml
+
+User-Agent: *
+Host: raunakm90.github.io
