@@ -949,6 +949,22 @@ LICENSE = ""
 # (translatable)
 CONTENT_FOOTER = 'Contents &copy; {date}         <a href="mailto:{email}">{author}</a> - Powered by         <a href="https://getnikola.com" rel="nofollow">Nikola</a>         {license}'
 
+SOCIAL_BUTTONS_CODE = """
+<span class="pull-right">
+    <a href="https://twitter.com/raunakmundada"
+        class="twitter-follow-button"
+        data-show-count="false">
+    Follow @raunakmundada</a>
+<script async src="//platform.twitter.com/widgets.js"
+    charset="utf-8"></script>
+
+<a class="github-button" href="https://github.com/raunakm90" aria-label="Follow @raunakm90 on GitHub">Follow @raunakm90</a>
+<!-- Place this tag in your head or just before your close body tag. -->
+<script async defer src="https://buttons.github.io/buttons.js"></script>
+</span>
+
+"""
+
 # Things that will be passed to CONTENT_FOOTER.format().  This is done
 # for translatability, as dicts are not formattable.  Nikola will
 # intelligently format the setting properly.
@@ -969,7 +985,8 @@ CONTENT_FOOTER_FORMATS = {
             "email": BLOG_EMAIL,
             "author": BLOG_AUTHOR,
             "date": time.gmtime().tm_year,
-            "license": LICENSE
+            "license": LICENSE,
+            "social": SOCIAL_BUTTONS_CODE
         }
     )
 }
