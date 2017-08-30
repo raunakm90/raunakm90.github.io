@@ -102,5 +102,8 @@ ENV/
 
 cache
 .doit.db
+.doit.db.dir
+.doit.db.dat
+.doit.db.bak
 __pycache__
 output
