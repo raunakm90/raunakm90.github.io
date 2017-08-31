@@ -29,6 +29,96 @@ article: http://ogp.me/ns/article#
 
         </ul></section><section class="page-content"><div class="content" rel="main">
         <div class="post">
+            <h1 class="title"><a href="posts/yelp-visualization/">Yelp Visualization</a></h1>
+            <div class="meta">
+                <div class="authordate">
+                    <time class="timeago" datetime="2017-08-30T19:06:10-05:00">2017-08-30 19:06</time>
+</div>
+                <div class="stats">
+                            <div class="g-commentcount" data-href="/posts/yelp-visualization/"></div>
+<script src="https://apis.google.com/js/plusone.js"></script>
+</div>
+                    <div itemprop="keywords" class="tags">
+        <ul>
+        Tags : 
+           <li><a class="tag p-category" href="categories/data-viz/" rel="tag">data-viz</a></li>
+           <li><a class="tag p-category" href="categories/plotly/" rel="tag">plotly</a></li>
+           <li><a class="tag p-category" href="categories/python/" rel="tag">python</a></li>
+           <li><a class="tag p-category" href="categories/yelp/" rel="tag">yelp</a></li>
+        </ul>
+</div>
+
+            </div>
+            <div class="body">
+                <div tabindex="-1" id="notebook" class="border-box-sizing">
+    <div class="container" id="notebook-container">
+
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>One’s ability of making decisions is largely dependent on others opinions with similar experiences. In today’s era of internet and information, it has become easier to find people with similar experiences you are looking for and website services like Yelp are playing an important role in making such information readily available. These reviews shared by service users are valuable for both business owners and prospective customers. The reviews consists of text description, star ratings, reviewer’s information, business descriptions for various categories (as defined by Yelp) etc. People can also vote on user reviews if they find it useful, funny or cool. The goal is to classify sentiments using the enormous review data text and predict the success or failure of a business. Here, we plan to conduct a sentiment analysis of the text description of the reviews received for food businesses in Charlotte. The idea is to find attributes that result in high ratings and thus suggest improvements in certain services in order to attract more customers. Some of the questions we will be interested in includes; how well we can guess a review's rating from its text alone? What are the most common positive and negative words used in reviews? Can we extract tips from reviews? Is it possible to predict the closure of a business based on the reviews received?</p>
+<p>Here in the first phase, we focus on visualizations (graphs, plots and maps) to explore the data in a way that can be useful for further analysis. We look at how the location, keywords and attributes affect the success of the business. Focussing on keywords from the reviews, it's sentiment and other significant effects caused by the attributes of a business we can model the success or failure of a business. This idea can be further extended to analyse the reviews and the attributes of a business and predict its success or failure. It can further provide suggestions to help businesses to improve and succeed.</p>
+<p>We look at the Charlotte food businesses from the following perspective -</p>
+<ol>
+<li>How does location affect a business?</li>
+<li>What keywords define the location?</li>
+<li>Which attributes define a location?</li>
+</ol>
+<p>We intend to measure the effectiveness of the model based on classification accuracy of Yelp's historical data. Based on the model, we can then define the important features of a successful food business in Charlotte.
+</p>
+<p class="more"><a href="posts/yelp-visualization/">Read more…</a></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+            </div>
+        </div>
+        <div class="post">
+            <h1 class="title"><a href="posts/credit-card-fraud-detection-logistic-regression-and-adasyn/">Credit Card Fraud Detection - Logistic Regression and ADASYN</a></h1>
+            <div class="meta">
+                <div class="authordate">
+                    <time class="timeago" datetime="2017-08-30T19:00:18-05:00">2017-08-30 19:00</time>
+</div>
+                <div class="stats">
+                            <div class="g-commentcount" data-href="/posts/credit-card-fraud-detection-logistic-regression-and-adasyn/"></div>
+<script src="https://apis.google.com/js/plusone.js"></script>
+</div>
+                    <div itemprop="keywords" class="tags">
+        <ul>
+        Tags : 
+           <li><a class="tag p-category" href="categories/class-imbalance/" rel="tag">class-imbalance</a></li>
+           <li><a class="tag p-category" href="categories/classification/" rel="tag">classification</a></li>
+           <li><a class="tag p-category" href="categories/logistic-regression/" rel="tag">logistic regression</a></li>
+           <li><a class="tag p-category" href="categories/python/" rel="tag">python</a></li>
+           <li><a class="tag p-category" href="categories/scikit-learn/" rel="tag">scikit-learn</a></li>
+        </ul>
+</div>
+
+            </div>
+            <div class="body">
+                <div tabindex="-1" id="notebook" class="border-box-sizing">
+    <div class="container" id="notebook-container">
+
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>This is a continuation of the credit card fraud detection - data visualization post. I now build a machine learning model using Adaptive Synthetic Sampling to detect credit card frauds.</p>
+<p>I came across Kaggle's dataset on <a href="https://www.kaggle.com/dalpozz/creditcardfraud">Credit Card Fraud Detection</a> and decided to dive into this problem. This dataset includes transactions by European cardholders completed in September 2013. I want to explore some of the classification methods that could be used to solve this problem. The biggest challenge of this problem is the class imbalance - only 0.172% of all transactions in this dataset are fraudulent. The goal of this project is to start with a simple yet powerful model like <a href="https://onlinecourses.science.psu.edu/stat504/node/149">Logistic Regression</a>. Along with implementing logistic regression, I also wanted to explore some the methods used to handle class imbalance. In this post, I use <a href="http://ieeexplore.ieee.org/document/4633969/?part=1">Adaptive Synthetic Sampling (ADASYN)</a>, which is further discussed in this post.
+</p>
+<p class="more"><a href="posts/credit-card-fraud-detection-logistic-regression-and-adasyn/">Read more…</a></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+            </div>
+        </div>
+        <div class="post">
             <h1 class="title"><a href="posts/credit-card-fraud-detection-data-exploration/">Credit Card Fraud Detection - Data Exploration</a></h1>
             <div class="meta">
                 <div class="authordate">

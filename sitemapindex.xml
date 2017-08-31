@@ -7,19 +7,19 @@
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <sitemap>
   <loc>https://raunakm90.github.io/categories/cat_credit-card-fraud-detection.xml</loc>
-  <lastmod>2017-08-30T23:34:00Z</lastmod>
+  <lastmod>2017-08-31T00:10:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://raunakm90.github.io/categories/cat_data-visualization.xml</loc>
-  <lastmod>2017-08-30T23:30:00Z</lastmod>
+  <lastmod>2017-08-31T00:10:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://raunakm90.github.io/categories/class-imbalance.xml</loc>
-  <lastmod>2017-08-30T23:30:00Z</lastmod>
+  <lastmod>2017-08-31T00:10:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://raunakm90.github.io/categories/classification.xml</loc>
-  <lastmod>2017-08-30T23:30:00Z</lastmod>
+  <lastmod>2017-08-31T00:10:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://raunakm90.github.io/categories/creditcardfraud.xml</loc>
@@ -27,23 +27,27 @@
  </sitemap>
  <sitemap>
   <loc>https://raunakm90.github.io/categories/data-viz.xml</loc>
-  <lastmod>2017-08-30T23:30:00Z</lastmod>
+  <lastmod>2017-08-31T00:10:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://raunakm90.github.io/categories/logistic-regression.xml</loc>
-  <lastmod>2017-08-30T23:30:00Z</lastmod>
+  <lastmod>2017-08-31T00:10:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://raunakm90.github.io/categories/plotly.xml</loc>
-  <lastmod>2017-08-30T23:30:00Z</lastmod>
+  <lastmod>2017-08-31T00:10:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://raunakm90.github.io/categories/python.xml</loc>
-  <lastmod>2017-08-30T23:34:00Z</lastmod>
+  <lastmod>2017-08-31T00:10:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://raunakm90.github.io/categories/scikit-learn.xml</loc>
-  <lastmod>2017-08-30T23:30:00Z</lastmod>
+  <lastmod>2017-08-31T00:10:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>https://raunakm90.github.io/categories/yelp.xml</loc>
+  <lastmod>2017-08-31T00:10:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://raunakm90.github.io/galleries/rss.xml</loc>
@@ -51,10 +55,10 @@
  </sitemap>
  <sitemap>
   <loc>https://raunakm90.github.io/rss.xml</loc>
-  <lastmod>2017-08-30T23:34:00Z</lastmod>
+  <lastmod>2017-08-31T00:10:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://raunakm90.github.io/sitemap.xml</loc>
-  <lastmod>2017-08-30T23:34:00Z</lastmod>
+  <lastmod>2017-08-31T00:10:00Z</lastmod>
  </sitemap>
 </sitemapindex>
