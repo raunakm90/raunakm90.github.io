@@ -15,11 +15,15 @@
  </url>
  <url>
   <loc>https://raunakm90.github.io/archive.html</loc>
-  <lastmod>2017-08-31T00:10:00Z</lastmod>
+  <lastmod>2017-08-31T00:23:00Z</lastmod>
  </url>
  <url>
   <loc>https://raunakm90.github.io/categories/</loc>
-  <lastmod>2017-08-31T00:10:00Z</lastmod>
+  <lastmod>2017-08-31T00:23:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://raunakm90.github.io/categories/algorithm/</loc>
+  <lastmod>2017-08-31T00:23:00Z</lastmod>
  </url>
  <url>
   <loc>https://raunakm90.github.io/categories/cat_credit-card-fraud-detection/</loc>
@@ -30,6 +34,10 @@
   <lastmod>2017-08-30T19:46:00Z</lastmod>
  </url>
  <url>
+  <loc>https://raunakm90.github.io/categories/cat_ml-algorithms/</loc>
+  <lastmod>2017-08-31T00:23:00Z</lastmod>
+ </url>
+ <url>
   <loc>https://raunakm90.github.io/categories/class-imbalance/</loc>
   <lastmod>2017-08-31T00:10:00Z</lastmod>
  </url>
@@ -38,12 +46,24 @@
   <lastmod>2017-08-31T00:10:00Z</lastmod>
  </url>
  <url>
+  <loc>https://raunakm90.github.io/categories/clustering/</loc>
+  <lastmod>2017-08-31T00:23:00Z</lastmod>
+ </url>
+ <url>
   <loc>https://raunakm90.github.io/categories/creditcardfraud/</loc>
   <lastmod>2017-08-30T23:30:00Z</lastmod>
  </url>
  <url>
   <loc>https://raunakm90.github.io/categories/data-viz/</loc>
   <lastmod>2017-08-30T19:47:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://raunakm90.github.io/categories/iris/</loc>
+  <lastmod>2017-08-31T00:23:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://raunakm90.github.io/categories/k-means/</loc>
+  <lastmod>2017-08-31T00:23:00Z</lastmod>
  </url>
  <url>
   <loc>https://raunakm90.github.io/categories/logistic-regression/</loc>
@@ -60,6 +80,10 @@
  <url>
   <loc>https://raunakm90.github.io/categories/scikit-learn/</loc>
   <lastmod>2017-08-31T00:10:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://raunakm90.github.io/categories/unsupervised/</loc>
+  <lastmod>2017-08-31T00:23:00Z</lastmod>
  </url>
  <url>
   <loc>https://raunakm90.github.io/categories/yelp/</loc>
@@ -80,6 +104,10 @@
  <url>
   <loc>https://raunakm90.github.io/posts/credit-card-fraud-detection-logistic-regression-and-adasyn/</loc>
   <lastmod>2017-08-31T00:10:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://raunakm90.github.io/posts/k-means-clustering/</loc>
+  <lastmod>2017-08-31T00:23:00Z</lastmod>
  </url>
  <url>
   <loc>https://raunakm90.github.io/posts/plotly-example/</loc>
